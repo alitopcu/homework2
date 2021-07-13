@@ -4,8 +4,8 @@ public class Main {
 
 	public static void main(String[] args) {
 		
-		Student student1 = new Student("Ali ", "Topçu ", "ali123@hotmail.com", 12345);
-		Student student2 = new Student("Hüseyin ", "Palamar ", "hüseyin123@hotmail.com", 123456);
+		Student student1 = new Student("Ali ", "TopÃ§u ", "ali123@hotmail.com", 12345);
+		Student student2 = new Student("HÃ¼seyin ", "Palamar ", "hÃ¼seyin123@hotmail.com", 123456);
 
 		System.out.println("------------------------------------------");
 
@@ -22,19 +22,12 @@ public class Main {
 		courseManager.add(course1);
 		courseManager.add(course2);
 		
-		Category category1 = new Category(1,"Programlama","Yeni başlıyanlar için programlama");
-		Category category2 = new Category(2,"Web Programlama","İleri seviye PHP programlama");
+		Category category1 = new Category(1,"Programlama","Yeni baÃ¾lÃ½yanlar iÃ§in programlama");
+		Category category2 = new Category(2,"Web Programlama","Ãleri seviye PHP programlama");
 		
 		CategoryManager categoryManager = new CategoryManager();
 		categoryManager.addCategory(category1);
 		categoryManager.addCategory(category2);
-		
-		
-		
-		
-		
-		
-		
 
 	}
 
